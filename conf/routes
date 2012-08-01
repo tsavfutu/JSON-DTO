@@ -1,1 +1,13 @@
-# No module-specific routes
+# This file defines all module routes (Higher priority routes first)
+#
+# import these routes in the main app as :
+# *     /                                             module:jsondto
+#
+# ~~~~
+
+GET     /jsondtoTestController/getNote                  JSONDTOTestController.getNote
+GET     /jsondtoTestController/getNotes                 JSONDTOTestController.getNotes
+GET     /jsondtoTestController/getWithParams            JSONDTOTestController.getWithParams
+POST    /jsondtoTestController/postWithBody             JSONDTOTestController.postWithBody
+POST    /jsondtoTestController/postNote                 JSONDTOTestController.postNote
+POST    /jsondtoTestController/postNoteModel            JSONDTOTestController.postNoteModel
